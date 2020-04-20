@@ -10,9 +10,9 @@ from PIL import ImageDraw
 from PIL import ImageFont
 
 
-BAV='4093721'
-IsBV=False
-sleepalltime=5
+BAV='4093721' #BV或者AV号 BV号示例:'BV16s411Q7fG' AV号示例:'4093721'
+IsBV=False  #若上面填的BV号这就要是True,若上面是AV号这就是False
+sleepalltime=5  #翻页间隔时间（单位：秒）
 
 
 BVBV=BAV
